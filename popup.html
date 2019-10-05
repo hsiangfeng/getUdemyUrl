@@ -1,0 +1,23 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Get Udemy Url</title>
+    <script src="popup.js"></script>
+  </head>
+  <style>
+    .myTextarea {
+      border: 0;
+      opacity: 0;
+    }
+  </style>
+  <body>
+    <h1>Get Udemy Url</h1>
+    <h2 id="h2"></h2>
+    <textarea id="myTextarea" class="myTextarea">Udemy</textarea>
+  </body>
+</html>
